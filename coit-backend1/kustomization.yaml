@@ -18,14 +18,14 @@ secretGenerator:
     envs:
     - applicationsecrets.properties
 namePrefix: customer1-
-nameSuffix: -production
+nameSuffix: -development
 
 commonLabels:
   customer: customer1
-  environment: stage
+  environment: development
   myapp: coit-backend1
   app: coitbackend1
 
 labels:
   - pairs:
-      location: mumbai
+      location: us-west
