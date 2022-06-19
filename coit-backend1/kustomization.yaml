@@ -4,7 +4,7 @@ resources:
   - ./coit-backend1-deployment.yaml
   - ./coit-backend1-service.yaml
 images:
-  - name: coitlearning/coit-backend1
+  - name: kollidatta/backend1
     newTag: 4.0.0
 configMapGenerator:
   - name: coit-backend1-config
